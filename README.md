@@ -7,10 +7,10 @@ An example of such a system can be a realtime controller used in drones where ba
 ## IR Transmitter Library
 
 Initialise with pin number 9 or 10
-...
+'''
 infraredTransmitter myTransmitter(9);
 myTransmitter.setSignalIdentity(2); //Performs hardware configurations
-...
+'''
 to set the signal type to be transmitted:-
 ...
 myTransmitter.setSignalIdentity(2);
