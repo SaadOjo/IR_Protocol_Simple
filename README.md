@@ -25,7 +25,7 @@ to turn on the led:
 ```
 myTransmitter.alwaysOn(); // Only needs to be called once
 ```
-## IR Reciever Library
+## IR Receiver Library
 
 Initialise on any digital pin.
 ```
