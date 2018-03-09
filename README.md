@@ -9,7 +9,7 @@ An example of such a system can be a realtime controller used in drones where ba
 Initialise with pin number 9 or 10
 ```
 infraredTransmitter myTransmitter(9);
-myTransmitter.setSignalIdentity(2); //Performs hardware configurations
+myTransmitter.init(); //Performs hardware configurations
 ```
 to set the signal type to be transmitted:
 ```
